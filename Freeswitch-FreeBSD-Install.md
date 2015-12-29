@@ -27,9 +27,12 @@ to
 if defined(_MSC_VER) || defined(__APPLE__) || defined(__FreeBSD__)
 ```
 
-then cd freeswitch/src/libs/spandsp/ 
+then cd freeswitch/src/libs/spandsp/
+
 automake --add-missing
+
 cd back to freeswitch src dir
 
 then gmake and see if there any compilation errors..
+
 if not hopefully do gmake install
