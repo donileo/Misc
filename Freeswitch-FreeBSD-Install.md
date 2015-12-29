@@ -11,6 +11,7 @@ edit modules.conf to specify what modules you want to build freeswitch with then
 
 gmake
 
+========
 #####mod_shout -  If mod shout enabled in modules.conf
 * make sure to have libmpg123 installed and lame installed as well via cd /usr/ports/audio/lame/ then gmake install
 * edit freeswitch/src/mod/formats/mod_shout/MakeFile and change:
@@ -19,6 +20,7 @@ am__append_2 = -I/usr/include/lame
 to
 am__append_2 = -I/usr/local/include/lame
 ```
+=========
 
 edit freeswitch/src/mod/endpoints/mod_verto/ws.h line 
 ```
