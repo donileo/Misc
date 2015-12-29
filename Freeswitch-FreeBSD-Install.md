@@ -34,5 +34,4 @@ automake --add-missing
 cd back to freeswitch src dir
 
 then gmake and see if there any compilation errors..
-
-if not hopefully do gmake install
+finally run: gmake install
